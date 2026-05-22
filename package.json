@@ -1,0 +1,59 @@
+{
+  "name": "claude-update-block",
+  "version": "1.0.0",
+  "description": "Disable Claude Desktop auto-updates on macOS. Block forced updates, lock your Claude version, prevent unwanted upgrades. Three-layer defense: defaults preference, /etc/hosts block, file permission lock. No MDM required. For personal users.",
+  "main": "dist/index.js",
+  "bin": {
+    "claude-update-block": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "claude-desktop",
+    "disable-auto-update",
+    "block-claude-update",
+    "stop-claude-update",
+    "lock-claude-version",
+    "claude-auto-update",
+    "prevent-claude-update",
+    "claude-desktop-disable-update",
+    "claude-desktop-block-update",
+    "claude-desktop-stop-auto-update",
+    "claude-desktop-lock-version",
+    "claude-desktop-version-freeze",
+    "claude-forced-update",
+    "claude-no-auto-update",
+    "claude-turn-off-update",
+    "macos",
+    "mac",
+    "no-mdm",
+    "personal-user",
+    "sudo",
+    "hosts",
+    "chmod"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "sudo-prompt": "^9.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "os": [
+    "darwin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/claude-update-block"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/claude-update-block#readme",
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/claude-update-block/issues"
+  }
+}

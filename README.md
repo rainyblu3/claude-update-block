@@ -32,7 +32,7 @@ Claude Desktop has **no GUI toggle** to disable automatic updates. Enterprise us
 ### Quick Start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-update-block.git
+git clone https://github.com/rainyblu3/claude-update-block.git
 cd claude-update-block
 npm install
 npm run build
@@ -45,7 +45,7 @@ Done. Your Claude version is now locked. Updates will not install.
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-update-block.git
+git clone https://github.com/rainyblu3/claude-update-block.git
 cd claude-update-block
 npm install && npm run build && npm link
 ```
@@ -161,7 +161,7 @@ Claude Desktop **没有 GUI 开关**来关闭自动更新。企业用户可以�
 ### 快速开始
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-update-block.git
+git clone https://github.com/rainyblu3/claude-update-block.git
 cd claude-update-block
 npm install
 npm run build
@@ -174,7 +174,7 @@ claude-update-block block
 ### 安装
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/claude-update-block.git
+git clone https://github.com/rainyblu3/claude-update-block.git
 cd claude-update-block
 npm install && npm run build && npm link
 ```
